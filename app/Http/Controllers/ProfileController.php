@@ -30,7 +30,7 @@ class ProfileController extends Controller
         
         $path = '/';
 
-        $domain = '$_SERVER["SERVER_NAME"]';
+        $domain = $_SERVER["SERVER_NAME"];
         
         $secure = false;
         
